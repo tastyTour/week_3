@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.stream.StreamSupport;
 
 public class Question7 {
     public static void main(String[] args) {
@@ -21,6 +20,10 @@ public class Question7 {
 
             case 9: case 10: case 11:
                 System.out.println("가을");
+                break;
+
+            default:
+                System.out.println("잘못된 월 입니다. 1 ~ 12 사이를 입력 해 주세요. ");
                 break;
         }
     }
